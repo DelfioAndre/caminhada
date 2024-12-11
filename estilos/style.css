@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PlaywriteHU';
+    src: url(/fonts/PlaywriteHU-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'PrincessSofia';
+    src: url(/fonts/PrincessSofia-Regular.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header  {
+    /*background-color: rgb(47, 53, 35);*/
+    background-image: url(/imgs/970eb8f210f555b91e62cdcd4a81f42f.jpg);
+    position: relative;
+
+    background-position: 50% 5%;
+
+}
+header h1 {
+    font-family: PrincessSofia, Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    color: peru;
+    padding: 20px;
+    height: 20vh;
+    text-align: center;
+
+    position: relative;
+    top: 50px;
+}
+
+section {
+    background-color:   rgb(204, 188, 166);
+   /* 
+   background-image: url(/imgs/970eb8f210f555b91e62cdcd4a81f42f.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    */
+}
+
+section div {
+    padding: 0px 37px;
+}
+section p {
+    font-family: PlaywriteHU;
+    padding: 10px;
+
+}
+section p#assin {
+    text-align: right;
+}
+section p#assin a {
+    color: black;
+    text-decoration: none;
+
+}
+section p#assin a:hover {
+    color: rgb(1, 145, 114);
+}
+
+footer {
+        /*background-color: rgb(47, 53, 35);*/
+        background-image: url(/imgs/970eb8f210f555b91e62cdcd4a81f42f.jpg);
+        position: relative;
+    
+        background-position: 50% 5%;
+        height: 10vh;
+
+}
+
+footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+footer p a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+footer p a:hover {
+    color: peru;
+}
